@@ -8,4 +8,9 @@
   编写一个readme.tex
   把文件添加到仓库 git add readme.txt
   把文件提交到仓库 git commit -m "wrote a readme file"
-
+  注:git添加文件分两步 add,commit
+     commit可以一次性提交很多文件，所以可以多次add不同的文件
+     如：
+	git add file1.txt
+	git add file2.txt file3.txt
+	git commit -m "add 3 files"
